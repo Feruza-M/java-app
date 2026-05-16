@@ -22,7 +22,7 @@ pipeline {
             steps {
                 sh '''
                     sleep 15
-                    curl -f http://localhost:8085
+                    curl -f http://localhost:8085/api/users
                 '''
             }
         }
